@@ -1,0 +1,82 @@
+@font-face {
+font-family: 'bafora';
+src: url('bafora.ttf');
+}
+@font-face {
+font-family: 'glitter';
+src: url('glitter.otf');
+}
+
+body{
+	background-color: #FBE122;
+}
+
+
+
+h1{
+	font-family:'bafora';
+	text-align: center;
+	font-size: 200px;
+	float: top;
+	margin-top: 100px;
+	margin-bottom: 100px;
+
+}
+
+#Lorgueil, #Laluxure, #Latraitrise{
+	background-color: #f2f2f2;
+	margin-right: 70px;
+	margin-left: 70px;
+
+;
+}
+
+h3{
+	font-family: 'glitter';
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: black;
+    overflow: hidden;
+    margin-bottom: 100px;
+    float: center;
+    font-family: 'glitter', sans-serif;
+
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 22px 22px;
+    text-decoration: none;
+    font-size: 30px;
+
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #E1B600;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: black;
+    color: white;
+}
+
+a:link{
+	text-decoration: none;
+}
+#w3-bar w3-black{
+	font-color: white;
+	
+}
+img{
+	width: 100px;
+
+}
+
