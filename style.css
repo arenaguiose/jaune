@@ -2,6 +2,7 @@
 font-family: "Nervous";
 src: url("Nervous.ttf");
 }
+<<<<<<< HEAD
 @font-face {
 font-family: "KeepCalm-Medium";
 src: url("KeepCalm-Medium.ttf");
@@ -14,6 +15,8 @@ src: url("robusta.ttf");
 
 
 
+=======
+>>>>>>> d05dfc2ebb417a237718bd57be27e24dbce29a4b
 
 body{
 	background-color:black;
@@ -47,12 +50,39 @@ body{
 }
 
 
+.parallax {
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.parallax__layer--base {
+  transform: translateZ(0);
+}
+.parallax__layer--back {
+  transform: translateZ(-1px);
+}
+
+
 #page{
 	/*border: 3px solid white;*/
+<<<<<<< HEAD
 
 	background-color: #f2eeee;
 	width: 60vw;
 	height: 444.6vh;
+=======
+	background-color: white;
+	width: 60vw;
+	height: 500vh;
+>>>>>>> d05dfc2ebb417a237718bd57be27e24dbce29a4b
 	padding: 20px;
 	padding-top: 75px;
 	margin-left: auto;
@@ -104,7 +134,11 @@ body{
 }
 #ananas{
 	position: absolute;
+<<<<<<< HEAD
 	margin-left: 105em;
+=======
+	margin-left: 90em;
+>>>>>>> d05dfc2ebb417a237718bd57be27e24dbce29a4b
 	margin-top: 155em;	
 	transform: rotate(-15deg) scale(2);
 }
@@ -122,15 +156,21 @@ body{
 }
 #etoile{
 	position: absolute;
+<<<<<<< HEAD
 	margin-left: -40em;
 	max-width:70%;
 	margin-top: 204em;	
+=======
+	margin-left: 68em;
+	margin-top: 230em;	
+>>>>>>> d05dfc2ebb417a237718bd57be27e24dbce29a4b
 }
 #balle{
 	position: absolute;
 	margin-left: -2em;
 	margin-top: 260em;	
 }
+<<<<<<< HEAD
 #toxique {
 	position: relative;
 	max-width: 40%;
@@ -142,12 +182,20 @@ body{
 	margin-left: 14em;
 
 
+=======
+
+#angoisse {
+	position: relative;
+	max-width: 70%;
+	float: right;
+>>>>>>> d05dfc2ebb417a237718bd57be27e24dbce29a4b
 }
 
 #angoisse {
     /* Start the shake animation and make the animation last for 0.5 seconds */
     animation: shake 0.5s; 
     /* When the animation is finished, start again */
+<<<<<<< HEAD
     animation-iteration-count: infinite;
 
 }
@@ -187,6 +235,9 @@ body{
 
 
 
+=======
+    animation-iteration-count: infinite; 
+>>>>>>> d05dfc2ebb417a237718bd57be27e24dbce29a4b
 }
 
 @keyframes shake {
