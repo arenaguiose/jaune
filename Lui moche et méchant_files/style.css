@@ -1,0 +1,98 @@
+body{
+	background-color: black;
+}
+
+.parallax {
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.parallax__layer--base {
+  transform: translateZ(0);
+}
+.parallax__layer--back {
+  transform: translateZ(-1px);
+}
+
+
+#page{
+	border: 3px solid white;
+	width: 60vw;
+	height: 500vh;
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15em;
+
+}
+
+p {
+	color: white;
+}
+#citro{
+	position: absolute;
+	margin-left: -35em;
+	margin-top: 5em;	
+	transform: rotate(-30deg);
+}
+
+#banane{
+	position: absolute;
+	margin-left: 60em;
+	transform: rotate(45deg);
+}
+
+#poste{
+	position: absolute;
+	margin-left: -4em;
+	margin-top: 35em;
+	transform: rotate(-5deg);
+}
+
+#tournesol{
+	position: absolute;
+	margin-left: 70em;
+	margin-top: 40em;	
+}
+#abeille{
+	position: absolute;
+	margin-left: -1em;
+	margin-top: 70em;	
+	transform: rotate(5deg);
+}
+#ananas{
+	position: absolute;
+	margin-left: 77em;
+	margin-top: 70em;	
+	transform: rotate(4deg);
+}
+#pacman{
+	position: absolute;
+	margin-left: 75em;
+	margin-top: 103em;	
+
+}
+#gilet{
+	position: absolute;
+	margin-left: -2em;
+	margin-top: 103em;	
+	transform: rotate(-8deg);
+}
+#etoile{
+	position: absolute;
+	margin-left: 68em;
+	margin-top: 132em;	
+}
+#balle{
+	position: absolute;
+	margin-left: -2em;
+	margin-top: 136em;	
+}

@@ -2,73 +2,98 @@ body{
 	background-color: black;
 }
 
+.parallax {
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.parallax__layer--base {
+  transform: translateZ(0);
+}
+.parallax__layer--back {
+  transform: translateZ(-1px);
+}
+
+
 #page{
-	position: absolute;
+	/*border: 3px solid white;*/
 	background-color: white;
-	width: 68em;
-	height: 500em;
-	margin-left: 12em;
-	margin-right: 16em;
+	width: 60vw;
+	height: 500vh;
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
 	margin-top: 15em;
 
 }
 
 #citro{
 	position: absolute;
-	margin-left: 2em;
+	margin-left: -30em;
 	margin-top: 5em;	
-	transform: rotate(-30deg);
+	transform: rotate(-30deg) scale(1.5);
 }
 
 #banane{
 	position: absolute;
-	margin-left: 60em;
-	transform: rotate(45deg);
-}
-
-#poste{
-	position: absolute;
-	margin-left: -4em;
-	margin-top: 35em;
-	transform: rotate(-5deg);
+	margin-left: 90em;
+	margin-top: 30em;
+	transform: rotate(105deg) scale(1.8);
 }
 
 #tournesol{
 	position: absolute;
-	margin-left: 70em;
-	margin-top: 40em;	
+	margin-left: -30em;
+	margin-top: 65em;
+	transform: scale(1.5);	
 }
+
+#poste{
+	position: absolute;
+	margin-left: 85em;
+	margin-top: 100em;
+	transform: rotate(-5deg) scale(1.5);
+}
+
 #abeille{
 	position: absolute;
-	margin-left: -1em;
-	margin-top: 70em;	
-	transform: rotate(5deg);
+	margin-left: -30em;
+	margin-top: 135em;	
+	transform: rotate(-20deg) scale(1.5) scaleX(-1);
 }
 #ananas{
 	position: absolute;
-	margin-left: 77em;
-	margin-top: 70em;	
-	transform: rotate(4deg);
+	margin-left: 90em;
+	margin-top: 155em;	
+	transform: rotate(-15deg) scale(2);
 }
 #pacman{
 	position: absolute;
 	margin-left: 75em;
-	margin-top: 103em;	
+	margin-top: 180em;	
 
 }
 #gilet{
 	position: absolute;
 	margin-left: -2em;
-	margin-top: 103em;	
+	margin-top: 200em;	
 	transform: rotate(-8deg);
 }
 #etoile{
 	position: absolute;
 	margin-left: 68em;
-	margin-top: 132em;	
+	margin-top: 230em;	
 }
 #balle{
 	position: absolute;
 	margin-left: -2em;
-	margin-top: 136em;	
+	margin-top: 260em;	
 }
