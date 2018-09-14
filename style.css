@@ -11,6 +11,10 @@ font-family: "robusta";
 src: url("robusta.ttf");
 }
 
+@font-face {
+font-family: "Sansumi-Regular";
+src: url("Sansumi-Regular.ttf");
+}
 
 
 
@@ -23,7 +27,7 @@ body{
 	height: 120vh;
 	width: 100vw;
 	background-color: yellow;
-	margin-top: 207.3em;
+	margin-top: 400em;
 }
 
 .parallax {
@@ -50,18 +54,17 @@ body{
 
 
 #page{
-	/*border: 3px solid white;*/
-	background-color: #f2eeee;
+	/*border: 3px solid white;
+	background-color: #f2eeee;*/
 	width: 70vw;
-	height: 444.6vh;
-	height: 300vh;
+	height: 700vh;
 	padding: 20px;
 	padding-top: 75px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 15em;
+	margin-top: 25em;
 	font-size: 1.2em;
-	font-family: "KeepCalm-Medium";
+	font-family: "Sansumi-Regular";
 
 	position: absolute;
 	left: 0;
@@ -69,7 +72,7 @@ body{
 	right: -30px;
 	bottom: 0;	
 	padding-right: 15px;
-	overflow-y: scroll;
+	overflow-y: hidden;
 }
 
 
@@ -136,16 +139,16 @@ body{
 
 #toxique {
 	position: relative;
-	max-width: 40%;
-	margin-left: 13.6em;
+	max-width: 50%;
+	margin-left: 58%;
 }
 
 
 
 #angoisse {
 	position: relative;
-	max-width: 40%;
-	margin-left: 14em;
+	max-width: 50%;
+	margin-left: -2em;
 }
 
 #angoisse {
@@ -159,31 +162,31 @@ body{
 #moche{
 	position: relative;
 	max-width: 60%;
-	margin-left: 8em;
+	margin-left: -3.3em;
 }
 #cocu{
 	position: relative;
-	max-width: 40%;
-	margin-left: 14em;
+	max-width: 50%;
+	margin-left: 66%;
 }
 
 #traitre{
 	position: relative;
-	max-width: 40%;
-	margin-left: 14em;
+	max-width: 50%;
+	margin-left: -3.2em;
 }
 
 #coquin{
 	position: relative;
-	max-width: 40%;
-	margin-left: 13em;
+	max-width: 50%;
+	margin-left: 63%;
 }
 
 
 #qui{
 	position: absolute;
 	margin-top: 0.5em;
-	margin-left: 2.8em;
+	margin-left: 45vw;
 	font-size: 2em;
 	color: white;
 	font-family: "robusta";
@@ -210,4 +213,36 @@ body{
     80% { transform: translate(-1px, -1px); }
     90% { transform: translate(1px, 2px); }
     100% { transform: translate(1px, -2px); }
+}
+
+.box p {
+	text-align: justify;
+}
+
+
+.flexx {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.box {
+	width:60%;
+	margin-bottom: 250px;
+	background-color: rgb(242,238,238, 0.7);
+	padding: 25px;
+	padding-top: 35px;
+}
+
+.box-black {
+	width: 27%;
+}
+
+#cache {
+	position: absolute;
+	margin-left: 40vw;
+	margin-top: 50vh;
+	width: 120vw;
+	height:550vh;
+	background-color: black;
 }
