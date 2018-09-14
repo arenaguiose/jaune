@@ -23,6 +23,7 @@ body{
 	height: 120vh;
 	width: 100vw;
 	background-color: yellow;
+	margin-top: 207.3em;
 }
 
 .parallax {
@@ -40,19 +41,6 @@ body{
 }
 
 
-.parallax {
-  perspective: 1px;
-  height: 100vh;
-  overflow-x: hidden;
-  overflow-y: auto;
-}
-.parallax__layer {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
 .parallax__layer--base {
   transform: translateZ(0);
 }
@@ -64,9 +52,8 @@ body{
 #page{
 	/*border: 3px solid white;*/
 	background-color: #f2eeee;
-	width: 60vw;
+	width: 70vw;
 	height: 444.6vh;
-	width: 60vw;
 	height: 300vh;
 	padding: 20px;
 	padding-top: 75px;
@@ -123,16 +110,10 @@ body{
 #ananas{
 	position: absolute;
 	margin-left: 105em;
-	margin-left: 90em;
 	margin-top: 155em;	
 	transform: rotate(-15deg) scale(2);
 }
 
-#pacman{
-	position: absolute;
-	margin-left: 75em;
-	margin-top: 180em;	
-}
 
 #gilet{
 	position: absolute;
@@ -144,9 +125,7 @@ body{
 	position: absolute;
 	margin-left: -40em;
 	max-width:70%;
-	margin-top: 204em;	
-	margin-left: 68em;
-	margin-top: 230em;	
+	margin-top: 204em;		
 }
 
 #balle{
@@ -165,8 +144,8 @@ body{
 
 #angoisse {
 	position: relative;
-	max-width: 70%;
-	float: right;
+	max-width: 40%;
+	margin-left: 14em;
 }
 
 #angoisse {
@@ -194,12 +173,21 @@ body{
 	margin-left: 14em;
 }
 
-
-
+#coquin{
+	position: relative;
+	max-width: 40%;
+	margin-left: 13em;
+}
 
 
 #qui{
+	position: absolute;
+	margin-top: 0.5em;
+	margin-left: 2.8em;
 	font-size: 2em;
+	color: white;
+	font-family: "robusta";
+	font-size: 9em;
 }
 
 #jaune{
